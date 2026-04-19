@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Signing Out Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="controls">
+        <h2>Create Your Frame</h2>
+
+        <input type="file" id="upload"><br>
+
+        <input type="text" id="id" placeholder="Your ID"><br>
+        <input type="text" id="name" placeholder="Your Name"><br>
+
+        <button onclick="generate()">Generate</button>
+        <button onclick="downloadImage()">Download</button>
+    </div>
+
+    <div class="preview">
+        <canvas id="canvas"></canvas>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
